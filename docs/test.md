@@ -10,7 +10,7 @@
 * Can I separate this from my GitHub account?
 
 
-Please
+## Please
 
-Make "This project has changes that need to be pushed to the git repository before it can be published.Read more" stand out more in the toast box on publishing
+- Make "This project has changes that need to be pushed to the git repository before it can be published.Read more" stand out more in the toast box on publishing
 
