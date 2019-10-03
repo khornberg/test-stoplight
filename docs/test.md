@@ -7,7 +7,6 @@
 * Why do endpoints get lumped under `Other`?
 * How do I use my own domain?
 * What is the cost?
-* Can I separate this from my GitHub account?
 
 
 ## Please
