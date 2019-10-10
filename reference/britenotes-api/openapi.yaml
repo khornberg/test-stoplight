@@ -4,11 +4,9 @@ info:
   contact:
     email: engineering@britecore.com
   version: '0.1'
-
 tags:
   - name: notes
     description: BriteNotes Operations
-
 paths:
   /notes:
     get:
@@ -32,7 +30,7 @@ paths:
       responses:
         '201':
           description: Note successfully created
-  /notes/{id}:
+  '/notes/{id}':
     get:
       tags:
         - notes
@@ -127,10 +125,10 @@ components:
             id:
               type: string
               format: uuid
-              description: The reference's immutable identifier
+              description: "The reference's immutable identifier"
             label:
               type: string
-              description: The reference's application-level mutable identifier
+              description: "The reference's application-level mutable identifier"
             domain:
               type: string
               description: The domain to which the reference belongs to
@@ -139,3 +137,6 @@ components:
               description: The level inside the domain
         body:
           type: string
+  securitySchemes: {}
+servers:
+  - url: 'https://api.{customer}.britecore.com'
