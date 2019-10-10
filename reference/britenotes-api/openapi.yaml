@@ -139,4 +139,5 @@ components:
           type: string
   securitySchemes: {}
 servers:
-  - url: 'https://api.{customer}.britecore.com'
+  - url: 'https://api.britecore.com'
+    description: Base
